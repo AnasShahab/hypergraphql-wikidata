@@ -43,7 +43,7 @@ public class SPARQLEndpointExecution implements Callable<SPARQLExecutionResult> 
         val unionModel = ModelFactory.createDefaultModel();
         val converter = new SPARQLServiceConverter(schema);
         val sparqlQuery = converter.getSelectQuery(query, inputSubset, rootType);
-        log.debug(sparqlQuery);
+        log.info(sparqlQuery);
 
         val credsProvider = new BasicCredentialsProvider();
         val credentials =
