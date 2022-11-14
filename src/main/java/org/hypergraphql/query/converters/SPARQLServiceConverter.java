@@ -27,7 +27,7 @@ import static org.hypergraphql.util.HGQLConstants.URIS;
 @RequiredArgsConstructor
 public class SPARQLServiceConverter {
 
-    private static final String RDF_TYPE_URI = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>";
+    private static final String RDF_TYPE_URI = "<http://www.wikidata.org/prop/direct/P31>";
 
     private final HGQLSchema schema;
 
