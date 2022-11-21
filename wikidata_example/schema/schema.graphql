@@ -1,0 +1,34 @@
+type __Context {
+    Cat:    _@href(iri: "http://www.wikidata.org/entity/Q146")
+    sex:    _@href(iri: "http://www.wikidata.org/prop/direct/P21")
+    name:   _@href(iri: "http://www.wikidata.org/prop/direct/P735")
+    label:  _@href(iri: "http://www.w3.org/2000/01/rdf-schema#label")
+    birthDate:  _@href(iri: "http://www.wikidata.org/prop/direct/P569")
+    LivingThings:    _@href(iri: "http://www.wikidata.org/entity/Q16334298")
+    deathDate:  _@href(iri: "http://www.wikidata.org/prop/direct/P570")
+    birthPlace:  _@href(iri: "http://www.wikidata.org/prop/direct/P19")
+    SexItem:    _@href(iri: "http://www.wikidata.org/entity/Q16334298")
+    NameItem:    _@href(iri: "http://www.wikidata.org/entity/Q101352")
+    BirthPlaceItem:    _@href(iri: "http://www.wikidata.org/entity/Q6256")
+}
+
+type Cat @service(id:"wikidata-sparql") {
+    name: [NameItem] @service(id:"wikidata-sparql")
+    sex: [SexItem] @service(id:"wikidata-sparql")
+    label: [String] @service(id:"wikidata-sparql")
+    birthDate: String @service(id:"wikidata-sparql")
+    deathDate: String @service(id:"wikidata-sparql")
+    birthPlace: [BirthPlaceItem] @service(id:"wikidata-sparql")
+}
+
+type SexItem @service(id:"wikidata-sparql"){
+    label: [String] @service(id:"wikidata-sparql")
+}
+
+type NameItem @service(id:"wikidata-sparql"){
+    label: [String] @service(id:"wikidata-sparql")
+}
+
+type BirthPlaceItem @service(id:"wikidata-sparql"){
+    label: [String] @service(id:"wikidata-sparql")
+}

@@ -1,0 +1,19 @@
+{
+    "name": "wikidata-hgql",
+    "schema": "schema/schema.graphql",
+    "server": {
+        "port": 8081,
+        "graphql": "/graphql",
+        "graphiql": "/graphiql"
+    },
+    "services": [
+        {
+            "id": "wikidata-sparql",
+            "type": "SPARQLEndpointService",
+            "url": "https://query.wikidata.org/sparql",
+            "graph": "",
+            "user": "",
+            "password": ""
+        }
+    ]
+}
