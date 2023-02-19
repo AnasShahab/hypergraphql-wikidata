@@ -1,0 +1,20 @@
+{
+  Cat_GET {
+    _id
+    label(lang: "en")
+    name {
+      _id
+      label(lang: "en")
+    }
+    sex {
+      _id
+      label(lang: "en")
+    }
+    birthDate
+    birthPlace {
+      _id
+      label(lang: "en")
+    }
+    deathDate
+  }
+}

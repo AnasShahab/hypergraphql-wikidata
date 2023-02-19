@@ -1,0 +1,46 @@
+SELECT * WHERE {
+    {
+        SELECT ?x_1 WHERE {
+            ?x_1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11344> .
+        }
+    }
+    OPTIONAL {
+        ?x_1 <http://www.wikidata.org/prop/direct/P2102> ?x_1_1 .
+    }
+    OPTIONAL {
+        ?x_1 <http://www.wikidata.org/prop/direct/P61> ?x_1_2 .
+        ?x_1_2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5> .
+        OPTIONAL {
+            ?x_1_2 <http://www.wikidata.org/prop/direct/P19> ?x_1_2_1 .
+            ?x_1_2_1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .
+            OPTIONAL {
+                ?x_1_2_1 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_2_1_1 .
+                FILTER (lang(?x_1_2_1_1) = "en") .
+            }  OPTIONAL {
+                ?x_1_2_1 <http://www.wikidata.org/prop/direct/P17> ?x_1_2_1_2 .
+                ?x_1_2_1_2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3624078> .
+                OPTIONAL {
+                    ?x_1_2_1_2 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_2_1_2_1 .
+                    FILTER (lang(?x_1_2_1_2_1) = "en") .
+                }
+            }
+        }
+        OPTIONAL {
+            ?x_1_2 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_2_2 .
+            FILTER (lang(?x_1_2_2) = "en") .
+        }
+    }
+    OPTIONAL {
+        ?x_1 <http://www.wikidata.org/prop/direct/P2101> ?x_1_3 .
+    }
+    OPTIONAL {
+        ?x_1 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_4 .
+        FILTER (lang(?x_1_4) = "en") .
+    }
+    OPTIONAL {
+        ?x_1 <http://www.wikidata.org/prop/direct/P274> ?x_1_5 .
+    }
+    OPTIONAL {
+        ?x_1 <http://www.wikidata.org/prop/direct/P2054> ?x_1_6 .
+    }
+}

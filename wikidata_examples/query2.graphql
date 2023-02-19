@@ -1,0 +1,22 @@
+{
+  ChemicalElement_GET {
+    _id
+    label(lang: "en")
+    chemicalFormula
+    boilingPoint
+    meltingPoint
+    density
+    discoverer {
+      _id
+      label(lang: "en")
+      placeBirth {
+        _id
+        label(lang: "en")
+        country {
+          _id
+          label(lang: "en")
+        }
+      }
+    }
+  }
+}

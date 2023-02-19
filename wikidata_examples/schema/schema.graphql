@@ -1,0 +1,33 @@
+type __Context {
+    Cat:    _@href(iri: "http://www.wikidata.org/entity/Q146")
+    label:  _@href(iri: "http://www.w3.org/2000/01/rdf-schema#label")
+    name:   _@href(iri: "http://www.wikidata.org/prop/direct/P735")
+    FamilyName:    _@href(iri: "http://www.wikidata.org/entity/Q101352")
+    sex:    _@href(iri: "http://www.wikidata.org/prop/direct/P21")
+    Sex:    _@href(iri: "http://www.wikidata.org/entity/Q290")
+    birthDate:  _@href(iri: "http://www.wikidata.org/prop/direct/P569")
+    birthPlace:  _@href(iri: "http://www.wikidata.org/prop/direct/P19")
+    SovereignState:    _@href(iri: "http://www.wikidata.org/entity/Q3624078")
+    deathDate:  _@href(iri: "http://www.wikidata.org/prop/direct/P570")
+}
+
+type Cat @service(id:"wikidata-sparql") {
+    name: [FamilyName] @service(id:"wikidata-sparql")
+    sex: [Sex] @service(id:"wikidata-sparql")
+    label: String @service(id:"wikidata-sparql")
+    birthDate: String @service(id:"wikidata-sparql")
+    deathDate: String @service(id:"wikidata-sparql")
+    birthPlace: [SovereignState] @service(id:"wikidata-sparql")
+}
+
+type FamilyName @service(id:"wikidata-sparql"){
+    label: String @service(id:"wikidata-sparql")
+}
+
+type Sex @service(id:"wikidata-sparql"){
+    label: String @service(id:"wikidata-sparql")
+}
+
+type SovereignState @service(id:"wikidata-sparql"){
+    label: String @service(id:"wikidata-sparql")
+}

@@ -1,0 +1,37 @@
+type __Context {
+    ChemicalElement:   _@href(iri: "http://www.wikidata.org/entity/Q11344")
+    label:  _@href(iri: "http://www.w3.org/2000/01/rdf-schema#label")
+    chemicalFormula:  _@href(iri: "http://www.wikidata.org/prop/direct/P274")
+    boilingPoint:    _@href(iri: "http://www.wikidata.org/prop/direct/P2102")
+    meltingPoint:  _@href(iri: "http://www.wikidata.org/prop/direct/P2101")
+    density:  _@href(iri: "http://www.wikidata.org/prop/direct/P2054")
+    discoverer:    _@href(iri: "http://www.wikidata.org/prop/direct/P61")
+    Human:  _@href(iri: "http://www.wikidata.org/entity/Q5")
+    placeBirth:    _@href(iri: "http://www.wikidata.org/prop/direct/P19")
+    City: _@href(iri: "http://www.wikidata.org/entity/Q515")
+    country:    _@href(iri: "http://www.wikidata.org/prop/direct/P17")
+    SovereignState:    _@href(iri: "http://www.wikidata.org/entity/Q3624078")
+}
+
+type ChemicalElement @service(id:"wikidata-sparql") {
+    chemicalFormula: String @service(id:"wikidata-sparql")
+    label: [String] @service(id:"wikidata-sparql")
+    boilingPoint: String @service(id:"wikidata-sparql")
+    meltingPoint: String @service(id:"wikidata-sparql")
+    density: String @service(id:"wikidata-sparql")
+    discoverer: [Human] @service(id:"wikidata-sparql")
+}
+
+type Human @service(id:"wikidata-sparql"){
+    placeBirth: [City] @service(id:"wikidata-sparql")
+    label: [String] @service(id:"wikidata-sparql")
+}
+
+type City @service(id:"wikidata-sparql"){
+    country: [SovereignState] @service(id:"wikidata-sparql")
+    label: String @service(id:"wikidata-sparql")
+}
+
+type SovereignState @service(id:"wikidata-sparql"){
+    label: [String] @service(id:"wikidata-sparql")
+}

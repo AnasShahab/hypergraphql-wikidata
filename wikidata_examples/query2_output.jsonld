@@ -1,0 +1,3299 @@
+{
+    "extensions": {},
+    "data": {
+      "@context": {
+        "placeBirth": "http://www.wikidata.org/prop/direct/P19",
+        "country": "http://www.wikidata.org/prop/direct/P17",
+        "density": "http://www.wikidata.org/prop/direct/P2054",
+        "chemicalFormula": "http://www.wikidata.org/prop/direct/P274",
+        "_type": "@type",
+        "_id": "@id",
+        "label": "http://www.w3.org/2000/01/rdf-schema#label",
+        "discoverer": "http://www.wikidata.org/prop/direct/P61",
+        "meltingPoint": "http://www.wikidata.org/prop/direct/P2101",
+        "ChemicalElement_GET": "http://hypergraphql.org/query/ChemicalElement_GET",
+        "boilingPoint": "http://www.wikidata.org/prop/direct/P2102"
+      },
+      "ChemicalElement_GET": [
+        {
+          "_id": "http://www.wikidata.org/entity/Q876",
+          "label": [
+            "selenium"
+          ],
+          "chemicalFormula": "[Se]",
+          "boilingPoint": "[1265]",
+          "meltingPoint": "[392]",
+          "density": "[4.28]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q353490",
+              "label": [
+                "Johan Gottlieb Gahn"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q151911",
+              "label": [
+                "Jöns Jacob Berzelius"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q54377",
+          "label": [
+            "unbihexium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q743",
+          "label": [
+            "tungsten"
+          ],
+          "chemicalFormula": "[W]",
+          "boilingPoint": "[5930, 10701]",
+          "meltingPoint": "[6170, 3410]",
+          "density": "[19.3]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q182745",
+              "label": [
+                "Fausto Elhuyar"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q728386",
+              "label": [
+                "Juan José Elhuyar"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q658",
+          "label": [
+            "sodium"
+          ],
+          "chemicalFormula": "[Na]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131761",
+              "label": [
+                "Humphry Davy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q703",
+          "label": [
+            "potassium"
+          ],
+          "chemicalFormula": "[K]",
+          "boilingPoint": "[774]",
+          "meltingPoint": "[336.7]",
+          "density": "[0.828, 0.862]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131761",
+              "label": [
+                "Humphry Davy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1234",
+          "label": [
+            "seaborgium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q1144326",
+              "label": [
+                "Yuri Oganessian"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q731",
+          "label": [
+            "manganese"
+          ],
+          "chemicalFormula": "[Mn]",
+          "boilingPoint": "[3564]",
+          "meltingPoint": "[2271]",
+          "density": "[7.2]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q353490",
+              "label": [
+                "Johan Gottlieb Gahn"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1258",
+          "label": [
+            "meitnerium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q16307164",
+          "label": [
+            "unseptbium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q888",
+          "label": [
+            "krypton"
+          ],
+          "chemicalFormula": "[Kr]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q950726",
+              "label": [
+                "William Ramsay"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4093",
+                  "label": "[Glasgow]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q380209",
+              "label": [
+                "Morris Travers"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q84",
+                  "label": "[London]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1303",
+          "label": [
+            "moscovium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1896",
+          "label": [
+            "fermium"
+          ],
+          "chemicalFormula": "[Fm]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q650",
+          "label": [
+            "fluorine"
+          ],
+          "chemicalFormula": "[F]",
+          "boilingPoint": "[-307]",
+          "meltingPoint": "[-363]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q675",
+              "label": [
+                "André-Marie Ampère"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q102804",
+              "label": [
+                "Henri Moissan"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q548592",
+          "label": [
+            "untriennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1872",
+          "label": [
+            "americium"
+          ],
+          "chemicalFormula": "[Am]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q674",
+          "label": [
+            "phosphorus"
+          ],
+          "chemicalFormula": "[P]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q77306",
+              "label": [
+                "Hennig Brand"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428635",
+          "label": [
+            "untribium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1096",
+          "label": [
+            "tin"
+          ],
+          "chemicalFormula": "[Sn]",
+          "boilingPoint": "[2507, 4545]",
+          "meltingPoint": "[231.9, 449]",
+          "density": "[7.28]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q880",
+          "label": [
+            "platinum"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q441066",
+              "label": [
+                "Julius Caesar Scaliger"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q470306",
+              "label": [
+                "Antonio de Ulloa"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084037",
+          "label": [
+            "unhexbium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1857",
+          "label": [
+            "lutetium"
+          ],
+          "chemicalFormula": "[Lu]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q89390",
+              "label": [
+                "Carl Auer von Welsbach"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q560404",
+              "label": [
+                "Georges Urbain"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1304",
+          "label": [
+            "livermorium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q868375",
+          "label": [
+            "untrihexium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q716",
+          "label": [
+            "titanium"
+          ],
+          "chemicalFormula": "[Ti]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[1941]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q58575",
+              "label": [
+                "Friedrich Wöhler"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1396",
+          "label": [
+            "europium"
+          ],
+          "chemicalFormula": "[Eu]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q725850",
+              "label": [
+                "Eugène-Anatole Demarçay"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1102",
+          "label": [
+            "plutonium"
+          ],
+          "chemicalFormula": "[Pu]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q472997",
+              "label": [
+                "Arthur Wahl"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q19009",
+              "label": [
+                "Edwin McMillan"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q1708246",
+              "label": [
+                "Joseph W. Kennedy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q932",
+          "label": [
+            "thallium"
+          ],
+          "chemicalFormula": "[Tl]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q189552",
+              "label": [
+                "William Crookes"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q84",
+                  "label": "[London]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551926",
+          "label": [
+            "unquadhexium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428703",
+          "label": [
+            "unbioctium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3552040",
+          "label": [
+            "untriquadium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1846",
+          "label": [
+            "holmium"
+          ],
+          "chemicalFormula": "[Ho]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q124083",
+              "label": [
+                "Jacques-Louis Soret"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q124122",
+              "label": [
+                "Marc Delafontaine"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q377822",
+              "label": [
+                "Per Teodor Cleve"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1898",
+          "label": [
+            "mendelevium"
+          ],
+          "chemicalFormula": "[Md]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1139",
+          "label": [
+            "ununennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q618",
+          "label": [
+            "boron"
+          ],
+          "chemicalFormula": "[B]",
+          "boilingPoint": "[4000]",
+          "meltingPoint": "[2077]",
+          "density": "[2080, 2.46]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131761",
+              "label": [
+                "Humphry Davy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1054",
+          "label": [
+            "technetium"
+          ],
+          "chemicalFormula": "[Tc]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[2170]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q173028",
+              "label": [
+                "Emilio G. Segrè"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q2939237",
+              "label": [
+                "Carlo Perrier"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q713",
+          "label": [
+            "scandium"
+          ],
+          "chemicalFormula": "[Sc]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q447875",
+              "label": [
+                "Lars Fredrik Nilson"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q753",
+          "label": [
+            "copper"
+          ],
+          "chemicalFormula": "[Cu]",
+          "boilingPoint": "[4703, 2595]",
+          "meltingPoint": "[1981, 1083]",
+          "density": "[8.94]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q725",
+          "label": [
+            "chromium"
+          ],
+          "chemicalFormula": "[Cr]",
+          "boilingPoint": "[4788]",
+          "meltingPoint": "[3452]",
+          "density": "[7.14]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q333438",
+              "label": [
+                "Louis Nicolas Vauquelin"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1123",
+          "label": [
+            "tantalum"
+          ],
+          "chemicalFormula": "[Ta]",
+          "boilingPoint": "[9797]",
+          "meltingPoint": "[5425]",
+          "density": "[16.65]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468303",
+              "label": [
+                "Anders Gustaf Ekeberg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q91655961",
+          "label": [
+            "unpentseptium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1232",
+          "label": [
+            "dubnium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q351792",
+          "label": [
+            "trace element"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q979",
+          "label": [
+            "polonium"
+          ],
+          "chemicalFormula": "[Po]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q7186",
+              "label": [
+                "Marie Curie"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q270",
+                  "label": "[Warsaw]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q36",
+                      "label": [
+                        "Poland"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q37463",
+              "label": [
+                "Pierre Curie"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q737",
+          "label": [
+            "rhenium"
+          ],
+          "chemicalFormula": "[Re]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q77529",
+              "label": [
+                "Ida Noddack"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4011",
+                  "label": "[Wesel]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q183",
+                      "label": [
+                        "Germany"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q85727",
+              "label": [
+                "Otto Berg"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q62714",
+              "label": [
+                "Walter Noddack"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q16307178",
+          "label": [
+            "unhexpentium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1301",
+          "label": [
+            "nihonium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[1130]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428685",
+          "label": [
+            "unbipentium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1038",
+          "label": [
+            "zirconium"
+          ],
+          "chemicalFormula": "[Zr]",
+          "boilingPoint": "[6471]",
+          "meltingPoint": "[3375]",
+          "density": "[6.51]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q902921",
+              "label": [
+                "Anton Eduard van Arkel"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q705255",
+              "label": [
+                "Jan Hendrik de Boer"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q160196",
+              "label": [
+                "Martin Heinrich Klaproth"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q151911",
+              "label": [
+                "Jöns Jacob Berzelius"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q660",
+          "label": [
+            "magnesium"
+          ],
+          "chemicalFormula": "[Mg]",
+          "boilingPoint": "[1100]",
+          "meltingPoint": "[649]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q272512",
+              "label": [
+                "Joseph Black"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428629",
+          "label": [
+            "untriunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551919",
+          "label": [
+            "unpentnilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q696",
+          "label": [
+            "argon"
+          ],
+          "chemicalFormula": "[Ar]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q83297",
+              "label": [
+                "John Strutt, 3rd Baron Rayleigh"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q950726",
+              "label": [
+                "William Ramsay"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4093",
+                  "label": "[Glasgow]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551935",
+          "label": [
+            "unquadunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1094",
+          "label": [
+            "indium"
+          ],
+          "chemicalFormula": "[In]",
+          "boilingPoint": "[3767]",
+          "meltingPoint": "[314]",
+          "density": "[7.31]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q77307",
+              "label": [
+                "Ferdinand Reich"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q77308",
+              "label": [
+                "Hieronymous Theodor Richter"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q1731",
+                  "label": "[Dresden]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q183",
+                      "label": [
+                        "Germany"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1882",
+          "label": [
+            "berkelium"
+          ],
+          "chemicalFormula": "[Bk]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q468345",
+              "label": [
+                "Albert Ghiorso"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q3068373",
+              "label": [
+                "Stanley Gerald Thompson"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q65",
+                  "label": "[Los Angeles]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q30",
+                      "label": [
+                        "United States of America"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1272",
+          "label": [
+            "roentgenium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q869681",
+          "label": [
+            "untrioctium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1843",
+          "label": [
+            "dysprosium"
+          ],
+          "chemicalFormula": "[Dy]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q366827",
+              "label": [
+                "Paul-Émile Lecoq de Boisbaudran"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084043",
+          "label": [
+            "unhexhexium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1855",
+          "label": [
+            "ytterbium"
+          ],
+          "chemicalFormula": "[Yb]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q124045",
+              "label": [
+                "Jean Charles Galissard de Marignac"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1108",
+          "label": [
+            "cesium"
+          ],
+          "chemicalFormula": "[Cs]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q71031",
+              "label": [
+                "Robert Bunsen"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q60052",
+              "label": [
+                "Gustav Kirchhoff"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q629",
+          "label": [
+            "oxygen"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q70538",
+              "label": [
+                "Carl Wilhelm Scheele"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q942",
+          "label": [
+            "bismuth"
+          ],
+          "chemicalFormula": "[Bi]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3029913",
+          "label": [
+            "unquadnilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q30929350",
+          "label": [
+            "unhexquadium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428741",
+          "label": [
+            "unbiquadium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q897",
+          "label": [
+            "gold"
+          ],
+          "chemicalFormula": "[Au]",
+          "boilingPoint": "[2940]",
+          "meltingPoint": "[1064.18]",
+          "density": "[19.32]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q91655950",
+          "label": [
+            "unpenthexium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1112",
+          "label": [
+            "barium"
+          ],
+          "chemicalFormula": "[Ba]",
+          "boilingPoint": "[1897]",
+          "meltingPoint": "[727]",
+          "density": "[3.338]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131761",
+              "label": [
+                "Humphry Davy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q627",
+          "label": [
+            "nitrogen"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q313067",
+              "label": [
+                "Daniel Rutherford"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q23436",
+                  "label": "[Edinburgh]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1100",
+          "label": [
+            "tellurium"
+          ],
+          "chemicalFormula": "[Te]",
+          "boilingPoint": "[1814]",
+          "meltingPoint": "[842]",
+          "density": "[6.24]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q112012",
+              "label": [
+                "Franz-Joseph Müller von Reichenstein"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1302",
+          "label": [
+            "flerovium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q11289368",
+          "label": [
+            "unsepttrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q671",
+          "label": [
+            "francium"
+          ],
+          "chemicalFormula": "[Fr]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q241822",
+              "label": [
+                "Marguerite Perey"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q740",
+          "label": [
+            "cobalt"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[5612]",
+          "meltingPoint": "[2719]",
+          "density": "[8.92]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q473225",
+              "label": [
+                "Georg Brandt"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q861",
+          "label": [
+            "gallium"
+          ],
+          "chemicalFormula": "[Ga]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[6.095, 5.904]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q366827",
+              "label": [
+                "Paul-Émile Lecoq de Boisbaudran"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551924",
+          "label": [
+            "unpenttrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1901",
+          "label": [
+            "nobelium"
+          ],
+          "chemicalFormula": "[No]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1832",
+          "label": [
+            "gadolinium"
+          ],
+          "chemicalFormula": "[Gd]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q124045",
+              "label": [
+                "Jean Charles Galissard de Marignac"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1109",
+          "label": [
+            "protactinium"
+          ],
+          "chemicalFormula": "[Pa]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q213667",
+              "label": [
+                "Kazimierz Fajans"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q270",
+                  "label": "[Warsaw]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q36",
+                      "label": [
+                        "Poland"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q56189",
+              "label": [
+                "Lise Meitner"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q57065",
+              "label": [
+                "Otto Hahn"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1121",
+          "label": [
+            "actinium"
+          ],
+          "chemicalFormula": "[Ac]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468371",
+              "label": [
+                "André-Louis Debierne"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q569",
+          "label": [
+            "beryllium"
+          ],
+          "chemicalFormula": "[Be]",
+          "boilingPoint": "[4532]",
+          "meltingPoint": "[2349]",
+          "density": "[1.85]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q58575",
+              "label": [
+                "Friedrich Wöhler"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q585780",
+              "label": [
+                "Antoine Bussy"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q333438",
+              "label": [
+                "Louis Nicolas Vauquelin"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q941",
+          "label": [
+            "yttrium"
+          ],
+          "chemicalFormula": "[Y]",
+          "boilingPoint": "[5301]",
+          "meltingPoint": "[2732]",
+          "density": "[4.47]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q312571",
+              "label": [
+                "Johan Gadolin"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q58575",
+              "label": [
+                "Friedrich Wöhler"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1133",
+          "label": [
+            "radon"
+          ],
+          "chemicalFormula": "[Rn]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q65191",
+              "label": [
+                "Friedrich Ernst Dorn"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q1505099",
+                  "label": "[Dobre Miasto]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q36",
+                      "label": [
+                        "Poland"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1266",
+          "label": [
+            "darmstadtium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1278",
+          "label": [
+            "copernicium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q654",
+          "label": [
+            "neon"
+          ],
+          "chemicalFormula": "[Ne]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q950726",
+              "label": [
+                "William Ramsay"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4093",
+                  "label": "[Glasgow]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q380209",
+              "label": [
+                "Morris Travers"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q84",
+                  "label": "[London]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1105",
+          "label": [
+            "neptunium"
+          ],
+          "chemicalFormula": "[Np]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q19009",
+              "label": [
+                "Edwin McMillan"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q377815",
+              "label": [
+                "Philip Abelson"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1226",
+          "label": [
+            "rutherfordium"
+          ],
+          "chemicalFormula": "[Rf]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468345",
+              "label": [
+                "Albert Ghiorso"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q91655999",
+          "label": [
+            "unhexnilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q682",
+          "label": [
+            "sulfur"
+          ],
+          "chemicalFormula": "[S]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[2.07]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q39607",
+              "label": [
+                "Antoine Lavoisier"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q16307168",
+          "label": [
+            "unhexoctium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q2399140",
+          "label": [
+            "unquadennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551929",
+          "label": [
+            "unquadseptium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q751",
+          "label": [
+            "osmium"
+          ],
+          "chemicalFormula": "[Os]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q312975",
+              "label": [
+                "William Hyde Wollaston"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q377800",
+              "label": [
+                "Smithson Tennant"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1892",
+          "label": [
+            "einsteinium"
+          ],
+          "chemicalFormula": "[Es]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q468345",
+              "label": [
+                "Albert Ghiorso"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q92113383",
+          "label": [
+            "unpentennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q670",
+          "label": [
+            "silicon"
+          ],
+          "chemicalFormula": "[Si]",
+          "boilingPoint": "[4271]",
+          "meltingPoint": "[2570]",
+          "density": "[2.329]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q151911",
+              "label": [
+                "Jöns Jacob Berzelius"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1849",
+          "label": [
+            "erbium"
+          ],
+          "chemicalFormula": "[Er]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468316",
+              "label": [
+                "Carl Gustaf Mosander"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1801",
+          "label": [
+            "lanthanum"
+          ],
+          "chemicalFormula": "[La]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468316",
+              "label": [
+                "Carl Gustaf Mosander"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q22313918",
+          "label": [
+            "unpentquadium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1106",
+          "label": [
+            "xenon"
+          ],
+          "chemicalFormula": "[Xe]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q950726",
+              "label": [
+                "William Ramsay"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4093",
+                  "label": "[Glasgow]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q380209",
+              "label": [
+                "Morris Travers"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q84",
+                  "label": "[London]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q938",
+          "label": [
+            "strontium"
+          ],
+          "chemicalFormula": "[Sr]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q902388",
+              "label": [
+                "William Cruickshank"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q22314315",
+          "label": [
+            "unpentpentium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1809",
+          "label": [
+            "promethium"
+          ],
+          "chemicalFormula": "[Pm]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q904506",
+              "label": [
+                "Jacob Akiba Marinsky"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q904562",
+              "label": [
+                "Lawrence E. Glendenin"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q260328",
+              "label": [
+                "Charles D. Coryell"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q65",
+                  "label": "[Los Angeles]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q30",
+                      "label": [
+                        "United States of America"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1366419",
+          "label": [
+            "untriseptium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q708",
+          "label": [
+            "lead"
+          ],
+          "chemicalFormula": "[Pb]",
+          "boilingPoint": "[1740, 3164]",
+          "meltingPoint": "[621, 328]",
+          "density": "[11.34]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1089",
+          "label": [
+            "palladium"
+          ],
+          "chemicalFormula": "[Pd]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q312975",
+              "label": [
+                "William Hyde Wollaston"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q895",
+          "label": [
+            "rubidium"
+          ],
+          "chemicalFormula": "[Rb]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q71031",
+              "label": [
+                "Robert Bunsen"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q60052",
+              "label": [
+                "Gustav Kirchhoff"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1388",
+          "label": [
+            "neodymium"
+          ],
+          "chemicalFormula": "[Nd]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q89390",
+              "label": [
+                "Carl Auer von Welsbach"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q879",
+          "label": [
+            "bromine"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q65517",
+              "label": [
+                "Carl Jacob Löwig"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q314306",
+              "label": [
+                "Antoine Jérôme Balard"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q758",
+          "label": [
+            "zinc"
+          ],
+          "chemicalFormula": "[Zn]",
+          "boilingPoint": "[907]",
+          "meltingPoint": "[419]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1146",
+          "label": [
+            "unbinilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q677",
+          "label": [
+            "iron"
+          ],
+          "chemicalFormula": "[Fe]",
+          "boilingPoint": "[2861]",
+          "meltingPoint": "[1811, 1538]",
+          "density": "[7.874]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q556",
+          "label": [
+            "hydrogen"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[-252.87]",
+          "meltingPoint": "[-259.14]",
+          "density": "[0.08987]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131733",
+              "label": [
+                "Henry Cavendish"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q867",
+          "label": [
+            "germanium"
+          ],
+          "chemicalFormula": "[Ge]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q73523",
+              "label": [
+                "Clemens Winkler"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q568",
+          "label": [
+            "lithium"
+          ],
+          "chemicalFormula": "[Li]",
+          "boilingPoint": "[1317]",
+          "meltingPoint": "[357.3, 180.5, 453.7]",
+          "density": "[0.534]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q313568",
+              "label": [
+                "Johan August afredwison"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q722",
+          "label": [
+            "vanadium"
+          ],
+          "chemicalFormula": "[V]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q524465",
+              "label": [
+                "Andrés Manuel del Río"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1853",
+          "label": [
+            "thulium"
+          ],
+          "chemicalFormula": "[Tm]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q377822",
+              "label": [
+                "Per Teodor Cleve"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551918",
+          "label": [
+            "unpentbium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q871",
+          "label": [
+            "arsenic"
+          ],
+          "chemicalFormula": "[As]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[1135]",
+          "density": "[5.73]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q60059",
+              "label": [
+                "Albertus Magnus"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1053",
+          "label": [
+            "molybdenum"
+          ],
+          "chemicalFormula": "[Mo]",
+          "boilingPoint": "[8717]",
+          "meltingPoint": "[4752]",
+          "density": "[10.28]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q70538",
+              "label": [
+                "Carl Wilhelm Scheele"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q560",
+          "label": [
+            "helium"
+          ],
+          "chemicalFormula": "[He]",
+          "boilingPoint": "[-268.9]",
+          "meltingPoint": "[-272.05]",
+          "density": "[0.1785]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q127959",
+              "label": [
+                "Norman Lockyer"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q298581",
+              "label": [
+                "Pierre Janssen"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q950726",
+              "label": [
+                "William Ramsay"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q4093",
+                  "label": "[Glasgow]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1838",
+          "label": [
+            "terbium"
+          ],
+          "chemicalFormula": "[Tb]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468316",
+              "label": [
+                "Carl Gustaf Mosander"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084046",
+          "label": [
+            "unseptnilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551933",
+          "label": [
+            "unquadtrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551921",
+          "label": [
+            "unpentunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q925",
+          "label": [
+            "mercury"
+          ],
+          "chemicalFormula": "[Hg]",
+          "boilingPoint": "[674]",
+          "meltingPoint": "[-38]",
+          "density": "[13.6]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1119",
+          "label": [
+            "hafnium"
+          ],
+          "chemicalFormula": "[Hf]",
+          "boilingPoint": "[8316]",
+          "meltingPoint": "[4041]",
+          "density": "[13]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q775969",
+              "label": [
+                "Dirk Coster"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q727",
+                  "label": "[Amsterdam]",
+                  "country": []
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q76951",
+              "label": [
+                "George de Hevesy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1252",
+          "label": [
+            "hassium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1385",
+          "label": [
+            "cerium"
+          ],
+          "chemicalFormula": "[Ce]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q160196",
+              "label": [
+                "Martin Heinrich Klaproth"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q151911",
+              "label": [
+                "Jöns Jacob Berzelius"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1098",
+          "label": [
+            "uranium"
+          ],
+          "chemicalFormula": "[U]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[19.05]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q903801",
+              "label": [
+                "Eugène-Melchior Péligot"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1046",
+          "label": [
+            "niobium"
+          ],
+          "chemicalFormula": "[Nb]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q378065",
+              "label": [
+                "Charles Hatchett"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q84",
+                  "label": "[London]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q145",
+                      "label": [
+                        "United Kingdom"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1103",
+          "label": [
+            "iodine"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468330",
+              "label": [
+                "Bernard Courtois"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1466",
+          "label": [
+            "unbiunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q688",
+          "label": [
+            "chlorine"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q70538",
+              "label": [
+                "Carl Wilhelm Scheele"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q999",
+          "label": [
+            "astatine"
+          ],
+          "chemicalFormula": "[At]",
+          "boilingPoint": "[503]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q173028",
+              "label": [
+                "Emilio G. Segrè"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q91655977",
+          "label": [
+            "unpentoctium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1115",
+          "label": [
+            "thorium"
+          ],
+          "chemicalFormula": "[Th]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q151911",
+              "label": [
+                "Jöns Jacob Berzelius"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551927",
+          "label": [
+            "unquadbium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1090",
+          "label": [
+            "silver"
+          ],
+          "chemicalFormula": "[Ag]",
+          "boilingPoint": "[3632, 961.78]",
+          "meltingPoint": "[1761]",
+          "density": "[10.49]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1086",
+          "label": [
+            "ruthenium"
+          ],
+          "chemicalFormula": "[Ru]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q554178",
+              "label": [
+                "Karl Ernst Claus"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428758",
+          "label": [
+            "unbitrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551930",
+          "label": [
+            "unquadpentium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084035",
+          "label": [
+            "unhexunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3552041",
+          "label": [
+            "untritrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1128",
+          "label": [
+            "radium"
+          ],
+          "chemicalFormula": "[Ra]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q7186",
+              "label": [
+                "Marie Curie"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q270",
+                  "label": "[Warsaw]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q36",
+                      "label": [
+                        "Poland"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q37463",
+              "label": [
+                "Pierre Curie"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1249",
+          "label": [
+            "bohrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q1144326",
+              "label": [
+                "Yuri Oganessian"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1306",
+          "label": [
+            "tennessine"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q1144326",
+              "label": [
+                "Yuri Oganessian"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q706",
+          "label": [
+            "calcium"
+          ],
+          "chemicalFormula": "[Ca]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q131761",
+              "label": [
+                "Humphry Davy"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1819",
+          "label": [
+            "samarium"
+          ],
+          "chemicalFormula": "[Sm]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q366827",
+              "label": [
+                "Paul-Émile Lecoq de Boisbaudran"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1099",
+          "label": [
+            "antimony"
+          ],
+          "chemicalFormula": "[Sb]",
+          "boilingPoint": "[2975]",
+          "meltingPoint": "[1166]",
+          "density": "[6.69]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q16307173",
+          "label": [
+            "unhexseptium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q744",
+          "label": [
+            "nickel"
+          ],
+          "chemicalFormula": "[Ni]",
+          "boilingPoint": "[5139]",
+          "meltingPoint": "[2831]",
+          "density": "[8.9]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468351",
+              "label": [
+                "Axel Fredrik Cronstedt"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1087",
+          "label": [
+            "rhodium"
+          ],
+          "chemicalFormula": "[Rh]",
+          "boilingPoint": "[6741]",
+          "meltingPoint": "[3571]",
+          "density": "[12.41]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q312975",
+              "label": [
+                "William Hyde Wollaston"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1386",
+          "label": [
+            "praseodymium"
+          ],
+          "chemicalFormula": "[Pr]",
+          "boilingPoint": "[3403]",
+          "meltingPoint": "[1208]",
+          "density": "[6.773]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468316",
+              "label": [
+                "Carl Gustaf Mosander"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q623",
+          "label": [
+            "carbon"
+          ],
+          "chemicalFormula": "[C]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[2.26, 3.51]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q39607",
+              "label": [
+                "Antoine Lavoisier"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428640",
+          "label": [
+            "unbiennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q877",
+          "label": [
+            "iridium"
+          ],
+          "chemicalFormula": "[Ir]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q377800",
+              "label": [
+                "Smithson Tennant"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551928",
+          "label": [
+            "unquadoctium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1091",
+          "label": [
+            "cadmium"
+          ],
+          "chemicalFormula": "[Cd]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[8.65]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q77309",
+              "label": [
+                "Friedrich Stromeyer"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q69080",
+              "label": [
+                "Karl Samuel Leberecht Hermann"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q663",
+          "label": [
+            "aluminium"
+          ],
+          "chemicalFormula": "[Al]",
+          "boilingPoint": "[4221, 2327]",
+          "meltingPoint": "[660, 1220]",
+          "density": "[2.7]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q44412",
+              "label": [
+                "Hans Christian Ørsted"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428648",
+          "label": [
+            "untrinilium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q19599218",
+          "label": [
+            "unhexennium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3551931",
+          "label": [
+            "unquadquadium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1905",
+          "label": [
+            "lawrencium"
+          ],
+          "chemicalFormula": "[Lr]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q468345",
+              "label": [
+                "Albert Ghiorso"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084048",
+          "label": [
+            "unseptunium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1876",
+          "label": [
+            "curium"
+          ],
+          "chemicalFormula": "[Cm]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1888",
+          "label": [
+            "californium"
+          ],
+          "chemicalFormula": "[Cf]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[1173]",
+          "density": "[15.1]",
+          "discoverer": [
+            {
+              "_id": "http://www.wikidata.org/entity/Q1989591",
+              "label": [
+                "Kenneth Street Jr."
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q48973",
+              "label": [
+                "Glenn T. Seaborg"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q468345",
+              "label": [
+                "Albert Ghiorso"
+              ],
+              "placeBirth": []
+            },
+            {
+              "_id": "http://www.wikidata.org/entity/Q3068373",
+              "label": [
+                "Stanley Gerald Thompson"
+              ],
+              "placeBirth": [
+                {
+                  "_id": "http://www.wikidata.org/entity/Q65",
+                  "label": "[Los Angeles]",
+                  "country": [
+                    {
+                      "_id": "http://www.wikidata.org/entity/Q30",
+                      "label": [
+                        "United States of America"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q7425",
+          "label": [
+            "unbibium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q3552038",
+          "label": [
+            "untripentium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q428692",
+          "label": [
+            "unbiseptium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q113084040",
+          "label": [
+            "unhextrium"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[]",
+          "meltingPoint": "[]",
+          "density": "[]",
+          "discoverer": []
+        },
+        {
+          "_id": "http://www.wikidata.org/entity/Q1307",
+          "label": [
+            "oganesson"
+          ],
+          "chemicalFormula": "[]",
+          "boilingPoint": "[80]",
+          "meltingPoint": "[]",
+          "density": "[4.9]",
+          "discoverer": []
+        }
+      ]
+    },
+    "errors": []
+  }
