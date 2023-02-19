@@ -46,12 +46,33 @@ This will build two JAR files in build/libs: hypergraphql-3.0.1.jar and hypergra
     type SovereignState @service(id:"wikidata-sparql"){
         label: String @service(id:"wikidata-sparql")
     }
-
+    
+##### Provide the configuration file
+###### config.json
+    {
+        "name": "wikidata-hgql",
+        "schema": "schema/schema.graphql",
+        "server": {
+            "port": 8081,
+            "graphql": "/graphql",
+            "graphiql": "/graphiql"
+        },
+        "services": [
+            {
+                "id": "wikidata-sparql",
+                "type": "SPARQLEndpointService",
+                "url": "https://query.wikidata.org/sparql",
+                "graph": "",
+                "user": "",
+                "password": ""
+            }
+        ]
+    }
 
 ##### Run the executable JAR
 ```sh
 java -jar build/libs/hypergraphql-3.0.1-exe.jar --config wikidata_example/config.json
 ```
 The HyperGraphQL server starts at: http://localhost:8081/graphql
-The GraphiQL UI is initiated at: http://localhost:8080/graphiql
+The GraphiQL UI is initiated at: http://localhost:8081/graphiql
       
