@@ -1,0 +1,113 @@
+{
+  "extensions": {},
+  "data": {
+    "Airport_GET_BY_ID": [
+      {
+        "_id": "http://www.wikidata.org/entity/Q17480",
+        "label": [
+          "Antwerp International Airport"
+        ],
+        "connectingLine": [
+          {
+            "_id": "http://www.wikidata.org/entity/Q1432126",
+            "label": [
+              "Nador International Airport"
+            ],
+            "placeServed": [
+              {
+                "_id": "http://www.wikidata.org/entity/Q824594",
+                "label": "[Nador]",
+                "coordinateLocation": [
+                  "Point(-2.93333 35.1667)"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q656993",
+            "label": [
+              "Palma de Mallorca Airport"
+            ],
+            "placeServed": [
+              {
+                "_id": "http://www.wikidata.org/entity/Q8826",
+                "label": "[Palma]",
+                "coordinateLocation": [
+                  "Point(2.649722222 39.566666666)"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q849314",
+            "label": [
+              "Alicante Airport"
+            ],
+            "placeServed": [
+              {
+                "_id": "http://www.wikidata.org/entity/Q11959",
+                "label": "[Alicante]",
+                "coordinateLocation": [
+                  "Point(-0.483055555 38.345277777)"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q8982",
+            "label": [
+              "London City Airport"
+            ],
+            "placeServed": [
+              {
+                "_id": "http://www.wikidata.org/entity/Q84",
+                "label": "[London]",
+                "coordinateLocation": [
+                  "Point(-0.1275 51.507222222)"
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q27706",
+            "label": [
+              "Hamburg Airport"
+            ],
+            "placeServed": []
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q1125392",
+            "label": [
+              "Split Airport"
+            ],
+            "placeServed": []
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q1431549",
+            "label": [
+              "Ibiza Airport"
+            ],
+            "placeServed": []
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q289972",
+            "label": [
+              "Geneva International Airport"
+            ],
+            "placeServed": []
+          }
+        ]
+      }
+    ],
+    "@context": {
+      "placeServed": "http://www.wikidata.org/prop/direct/P931",
+      "connectingLine": "http://www.wikidata.org/prop/direct/P81",
+      "_type": "@type",
+      "Airport_GET_BY_ID": "http://hypergraphql.org/query/Airport_GET_BY_ID",
+      "coordinateLocation": "http://www.wikidata.org/prop/direct/P625",
+      "_id": "@id",
+      "label": "http://www.w3.org/2000/01/rdf-schema#label"
+    }
+  },
+  "errors": []
+}

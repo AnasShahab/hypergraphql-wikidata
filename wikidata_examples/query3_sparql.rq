@@ -1,0 +1,22 @@
+SELECT * WHERE {
+  {
+    SELECT ?x_1 WHERE {
+      ?x_1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11173> .
+    }
+  }
+  OPTIONAL {
+    ?x_1 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_1 .
+    FILTER (lang(?x_1_1) = "en") .
+  }
+  OPTIONAL {
+    ?x_1 <http://www.wikidata.org/prop/direct/P462> ?x_1_2 .
+    ?x_1_2 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1075> .
+    OPTIONAL {
+      ?x_1_2 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_2_1 .
+      FILTER (lang(?x_1_2_1) = "en") .
+    }
+    OPTIONAL {
+      ?x_1_2 <http://www.wikidata.org/prop/direct/P465> ?x_1_2_2 .
+    }
+  }
+}

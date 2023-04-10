@@ -9,6 +9,24 @@ type __Context {
     birthPlace:  _@href(iri: "http://www.wikidata.org/prop/direct/P19")
     SovereignState:    _@href(iri: "http://www.wikidata.org/entity/Q3624078")
     deathDate:  _@href(iri: "http://www.wikidata.org/prop/direct/P570")
+    ChemicalElement:   _@href(iri: "http://www.wikidata.org/entity/Q11344")
+    chemicalFormula:  _@href(iri: "http://www.wikidata.org/prop/direct/P274")
+    boilingPoint:    _@href(iri: "http://www.wikidata.org/prop/direct/P2102")
+    meltingPoint:  _@href(iri: "http://www.wikidata.org/prop/direct/P2101")
+    density:  _@href(iri: "http://www.wikidata.org/prop/direct/P2054")
+    discoverer:    _@href(iri: "http://www.wikidata.org/prop/direct/P61")
+    Human:  _@href(iri: "http://www.wikidata.org/entity/Q5")
+    placeBirth:    _@href(iri: "http://www.wikidata.org/prop/direct/P19")
+    City: _@href(iri: "http://www.wikidata.org/entity/Q515")
+    country:    _@href(iri: "http://www.wikidata.org/prop/direct/P17")
+    ChemicalCompound: _@href(iri: "http://www.wikidata.org/entity/Q11173")
+    color: _@href(iri: "http://www.wikidata.org/prop/direct/P462")
+    Color: _@href(iri: "http://www.wikidata.org/entity/Q1075")
+    rgb: _@href(iri: "http://www.wikidata.org/prop/direct/P465")
+    Airport:_@href(iri: "http://www.wikidata.org/entity/Q1248784")
+    connectingLine: _@href(iri: "http://www.wikidata.org/prop/direct/P81")
+    placeServed: _@href(iri: "http://www.wikidata.org/prop/direct/P931")
+    coordinateLocation: _@href(iri: "http://www.wikidata.org/prop/direct/P625")
 }
 
 type Cat @service(id:"wikidata-sparql") {
@@ -30,4 +48,40 @@ type Sex @service(id:"wikidata-sparql"){
 
 type SovereignState @service(id:"wikidata-sparql"){
     label: String @service(id:"wikidata-sparql")
+}
+
+type ChemicalElement @service(id:"wikidata-sparql") {
+    chemicalFormula: String @service(id:"wikidata-sparql")
+    label: [String] @service(id:"wikidata-sparql")
+    boilingPoint: String @service(id:"wikidata-sparql")
+    meltingPoint: String @service(id:"wikidata-sparql")
+    density: String @service(id:"wikidata-sparql")
+    discoverer: [Human] @service(id:"wikidata-sparql")
+}
+
+type Human @service(id:"wikidata-sparql"){
+    placeBirth: [City] @service(id:"wikidata-sparql")
+    label: [String] @service(id:"wikidata-sparql")
+}
+
+type City @service(id:"wikidata-sparql"){
+    country: [SovereignState] @service(id:"wikidata-sparql")
+    label: String @service(id:"wikidata-sparql")
+    coordinateLocation: [String] @service(id:"wikidata-sparql")
+}
+
+type ChemicalCompound @service(id:"wikidata-sparql") {
+    label: [String] @service(id:"wikidata-sparql")
+    color: [Color] @service(id:"wikidata-sparql")
+}
+
+type Color @service(id:"wikidata-sparql") {
+    label: [String] @service(id:"wikidata-sparql")
+    rgb: [String] @service(id:"wikidata-sparql")
+}
+
+type Airport @service(id:"wikidata-sparql") {
+    label: [String] @service(id:"wikidata-sparql")
+    connectingLine: [Airport] @service(id:"wikidata-sparql")
+    placeServed: [City] @service(id:"wikidata-sparql")
 }

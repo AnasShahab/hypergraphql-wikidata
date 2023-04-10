@@ -1,0 +1,12 @@
+#Get details about chemical compounds
+query {
+  ChemicalCompound_GET {
+    _id
+    label(lang: "en")
+    color {
+      _id
+      label(lang: "en")
+      rgb
+    }
+  }
+}

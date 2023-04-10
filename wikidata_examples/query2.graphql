@@ -1,4 +1,5 @@
-{
+#get details about chemical elements
+query {
   ChemicalElement_GET {
     _id
     label(lang: "en")

@@ -1,0 +1,11 @@
+SELECT * WHERE {
+  {
+    SELECT ?x_1 WHERE {
+      ?x_1 <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q146> .
+    } LIMIT 10 OFFSET 2
+  }
+  OPTIONAL {
+    ?x_1 <http://www.w3.org/2000/01/rdf-schema#label> ?x_1_1 .
+    FILTER (lang(?x_1_1) = "en") .
+  }
+}

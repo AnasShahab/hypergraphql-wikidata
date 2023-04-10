@@ -1,0 +1,54 @@
+{
+  "extensions": {},
+  "data": {
+    "@context": {
+      "_type": "@type",
+      "_id": "@id",
+      "Cat_GET": "http://hypergraphql.org/query/Cat_GET",
+      "label": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Cat_GET": [
+      {
+        "_id": "http://www.wikidata.org/entity/Q677525",
+        "label": "[Orangey]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1386318",
+        "label": "[F. D. C. Willard]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1050083",
+        "label": "[Catmando]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1413628",
+        "label": "[Nora]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1201902",
+        "label": "[Tama]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q893453",
+        "label": "[Unsinkable Sam]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1207136",
+        "label": "[Dewey Readmore Books]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q851190",
+        "label": "[Mrs. Chippy]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1371145",
+        "label": "[Socks]"
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1622688",
+        "label": "[Hodge]"
+      }
+    ]
+  },
+  "errors": []
+}

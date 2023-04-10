@@ -1,0 +1,16 @@
+#Example showing usage of VALUES
+query {
+  Airport_GET_BY_ID(uris: ["http://www.wikidata.org/entity/Q17480"]) {
+    _id
+    label(lang: "en")
+    connectingLine {
+      _id
+      label(lang: "en")
+      placeServed {
+        _id
+        label(lang: "en")
+        coordinateLocation
+      }
+    }
+  }
+}

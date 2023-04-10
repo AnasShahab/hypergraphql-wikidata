@@ -1,0 +1,7 @@
+#Example showing usage of limit and offset
+query {
+  Cat_GET(limit: 10, offset: 2) {
+    _id
+    label(lang: "en")
+  }
+}

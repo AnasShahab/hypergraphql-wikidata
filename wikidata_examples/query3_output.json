@@ -1,0 +1,82 @@
+{
+  "extensions": {},
+  "data": {
+    "@context": {
+      "color": "http://www.wikidata.org/prop/direct/P462",
+      "_type": "@type",
+      "ChemicalCompound_GET": "http://hypergraphql.org/query/ChemicalCompound_GET",
+      "_id": "@id",
+      "label": "http://www.w3.org/2000/01/rdf-schema#label",
+      "rgb": "http://www.wikidata.org/prop/direct/P465"
+    },
+    "ChemicalCompound_GET": [
+      {
+        "_id": "http://www.wikidata.org/entity/Q2025",
+        "label": [
+          "carbon monoxide"
+        ],
+        "color": []
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q1997",
+        "label": [
+          "carbon dioxide"
+        ],
+        "color": []
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q2270",
+        "label": [
+          "benzene"
+        ],
+        "color": []
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q153",
+        "label": [
+          "ethanol"
+        ],
+        "color": []
+      },
+      {
+        "_id": "http://www.wikidata.org/entity/Q283",
+        "label": [
+          "water"
+        ],
+        "color": [
+          {
+            "_id": "http://www.wikidata.org/entity/Q23444",
+            "label": [
+              "white"
+            ],
+            "rgb": [
+              "FFFFFF"
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q5960345",
+            "label": [
+              "turquoise"
+            ],
+            "rgb": [
+              "30D5C8",
+              "40E0D0",
+              "45B5AA"
+            ]
+          },
+          {
+            "_id": "http://www.wikidata.org/entity/Q3133",
+            "label": [
+              "green"
+            ],
+            "rgb": [
+              "00FF00"
+            ]
+          }
+        ]
+      },
+      .....
+    ]
+  },
+  "errors": []
+}

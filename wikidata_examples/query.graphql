@@ -1,4 +1,5 @@
-{
+#Get details about cats
+query {
   Cat_GET {
     _id
     label(lang: "en")
